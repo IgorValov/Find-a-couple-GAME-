@@ -1,0 +1,440 @@
+body {
+    background: #004980;
+}
+
+.triesid {
+    color: #004980;
+}
+
+.hidden {
+    display: none;
+}
+
+.container {
+    padding-top: 52px;
+    text-align: center;
+    width: 480px;
+    height: 459px;
+    margin-left: 33%;
+    margin-top: 100px;
+    background: #c2f5ff;
+    border-radius: 12px;
+}
+
+.title {
+    margin-bottom: 48px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #004980;
+}
+
+.button {
+    width: 98px;
+    height: 98px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 72px;
+    color: #0080c1;
+    background: #fff;
+    border-radius: 12px;
+}
+
+.start {
+    margin-top: 67px;
+    width: 246px;
+    height: 50px;
+    background: #7ac100;
+    border-radius: 12px;
+    border: 2px solid #fff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #fff;
+}
+
+.timer__button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.timer {
+    margin-left: 30px;
+    margin-top: 41px;
+    display: flex;
+}
+
+.time {
+    font-size: 64px;
+    margin: 0;
+    color: #fff;
+}
+
+.restart {
+    margin-right: 23px;
+    margin-top: 52px;
+    width: 246px;
+    height: 48px;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    background: #7ac100;
+    border: 1px solid #7ac100;
+    border-radius: 12px;
+}
+
+.game {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cart {
+    width: 95px;
+    height: 133px;
+    background: #fff;
+    border-radius: 4px;
+}
+
+.container__cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+[data-view='card'] {
+    transform: rotateY(180deg);
+    width: 95px;
+    height: 135px;
+    margin: 1px;
+    float: left;
+    cursor: pointer;
+    background: url('./img/рубашка.png') left center no-repeat;
+    border-radius: 5px;
+}
+
+.flipped {
+    transition: 0.2s;
+    transform-style: preserve-3d;
+    position: relative;
+    transform: rotateY(0deg);
+}
+
+.reverse {
+    transition: 0.2s;
+    transform-style: preserve-3d;
+    position: relative;
+    transform: rotateY(180deg);
+}
+
+.correct {
+    transition: 0.8s;
+    opacity: 0.2;
+    cursor: default;
+    transform-style: preserve-3d;
+    position: relative;
+    transform: translateX(-5000%);
+}
+
+/* Cards */
+.correct[data-item='1'],
+.flipped[data-item='1'] {
+    background: url('./img/6\ бубны.png') left center no-repeat;
+    background-size: contain;
+}
+
+.correct[data-item='2'],
+.flipped[data-item='2'] {
+    background: url('./img/6\ крести.png') left center no-repeat;
+    background-size: contain;
+}
+
+.correct[data-item='3'],
+.flipped[data-item='3'] {
+    background: url('./img/6\ пики.png') left center no-repeat;
+    background-size: contain;
+}
+
+.correct[data-item='4'],
+.flipped[data-item='4'] {
+    background: url('./img/6\ черви.png') left center no-repeat;
+    background-size: contain;
+}
+
+.correct[data-item='5'],
+.flipped[data-item='5'] {
+    background: url('./img/7\ бубны.png') left center no-repeat;
+    background-size: contain;
+}
+
+.correct[data-item='6'],
+.flipped[data-item='6'] {
+    background: url('./img/7\ крести.png') left center no-repeat;
+    background-size: contain;
+}
+
+.correct[data-item='7'],
+.flipped[data-item='7'] {
+    background: url('./img/7\ пики.png') left center no-repeat;
+    background-size: contain;
+}
+
+.correct[data-item='8'],
+.flipped[data-item='8'] {
+    background: url('./img/7\ черви.png') left center no-repeat;
+    background-size: contain;
+}
+
+.correct[data-item='9'],
+.flipped[data-item='9'] {
+    background: url('./img/8\ бубны.png') left center no-repeat;
+    background-size: contain;
+}
+
+.correct[data-item='10'],
+.flipped[data-item='10'] {
+    background: url('./img/8\ крести.png') left center no-repeat;
+    background-size: contain;
+}
+
+.correct[data-item='11'],
+.flipped[data-item='11'] {
+    background: url('./img/8\ пики.png') left center no-repeat;
+    background-size: contain;
+}
+
+.correct[data-item='12'],
+.flipped[data-item='12'] {
+    background: url('./img/8\ черви.png') left center no-repeat;
+    background-size: contain;
+}
+
+.correct[data-item='13'],
+.flipped[data-item='13'] {
+    background: url('./img/9\ бубны.png') left center no-repeat;
+    background-size: contain;
+}
+
+.correct[data-item='14'],
+.flipped[data-item='14'] {
+    background: url('./img/9\ крести.png') left center no-repeat;
+    background-size: contain;
+}
+
+.correct[data-item='15'],
+.flipped[data-item='15'] {
+    background: url('./img/9\ пики.png') left center no-repeat;
+    background-size: contain;
+}
+
+.correct[data-item='16'],
+.flipped[data-item='16'] {
+    background: url('./img/9\ черви.png') left center no-repeat;
+    background-size: contain;
+}
+
+.correct[data-item='17'],
+.flipped[data-item='17'] {
+    background: url('./img/10\ бубны.png') left center no-repeat;
+    background-size: contain;
+}
+
+.correct[data-item='18'],
+.flipped[data-item='18'] {
+    background: url('./img/10\ крести.png') left center no-repeat;
+    background-size: contain;
+}
+
+.correct[data-item='19'],
+.flipped[data-item='19'] {
+    background: url('./img/10\ пики.png') left center no-repeat;
+    background-size: contain;
+}
+
+.correct[data-item='20'],
+.flipped[data-item='20'] {
+    background: url('./img/10\ черви.png') left center no-repeat;
+    background-size: contain;
+}
+
+.correct[data-item='21'],
+.flipped[data-item='21'] {
+    background: url('./img/валет\ бубны.png') left center no-repeat;
+    background-size: contain;
+}
+
+.correct[data-item='22'],
+.flipped[data-item='22'] {
+    background: url('./img/валет\ крести.png') left center no-repeat;
+    background-size: contain;
+}
+
+.correct[data-item='23'],
+.flipped[data-item='23'] {
+    background: url('./img/валет\ пики.png') left center no-repeat;
+    background-size: contain;
+}
+
+.correct[data-item='24'],
+.flipped[data-item='24'] {
+    background: url('./img/валет\ черви.png') left center no-repeat;
+    background-size: contain;
+}
+
+.correct[data-item='25'],
+.flipped[data-item='25'] {
+    background: url('./img/дама\ бубны.png') left center no-repeat;
+    background-size: contain;
+}
+
+.correct[data-item='26'],
+.flipped[data-item='26'] {
+    background: url('./img/дама\ крести.png') left center no-repeat;
+    background-size: contain;
+}
+
+.correct[data-item='27'],
+.flipped[data-item='27'] {
+    background: url('./img/дама\ пики.png') left center no-repeat;
+    background-size: contain;
+}
+
+.correct[data-item='28'],
+.flipped[data-item='28'] {
+    background: url('./img/дама\ черви.png') left center no-repeat;
+    background-size: contain;
+}
+
+.correct[data-item='29'],
+.flipped[data-item='29'] {
+    background: url('./img/король\ бубны.png') left center no-repeat;
+    background-size: contain;
+}
+
+.correct[data-item='30'],
+.flipped[data-item='30'] {
+    background: url('./img/король\ крести.png') left center no-repeat;
+    background-size: contain;
+}
+
+.correct[data-item='31'],
+.flipped[data-item='31'] {
+    background: url('./img/король\ пики.png') left center no-repeat;
+    background-size: contain;
+}
+
+.correct[data-item='32'],
+.flipped[data-item='32'] {
+    background: url('./img/король\ черви.png') left center no-repeat;
+    background-size: contain;
+}
+
+.correct[data-item='33'],
+.flipped[data-item='33'] {
+    background: url('./img/туз\ бубны.png') left center no-repeat;
+    background-size: contain;
+}
+
+.correct[data-item='34'],
+.flipped[data-item='34'] {
+    background: url('./img/туз\ крести.png') left center no-repeat;
+    background-size: contain;
+}
+
+.correct[data-item='35'],
+.flipped[data-item='35'] {
+    background: url('./img/туз\ пики.png') left center no-repeat;
+    background-size: contain;
+}
+
+.correct[data-item='36'],
+.flipped[data-item='36'] {
+    background: url('./img/туз\ черви.png') left center no-repeat;
+    background-size: contain;
+}
+
+#zatemnenie {
+    background: rgb(102 102 102 / 50%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+#okno {
+    text-align: center;
+    width: 480px;
+    height: 459px;
+    margin-left: 33%;
+    margin-top: 100px;
+    background: #c2f5ff;
+    border-radius: 12px;
+}
+
+#zatemnenie:target {
+    display: block;
+}
+
+.win {
+    margin-top: 32px;
+    margin-bottom: 0;
+}
+
+.lose {
+    margin-top: 32px;
+    margin-bottom: 0;
+}
+
+.title__result {
+    font-weight: 400;
+    font-size: 40px;
+    color: #004980;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+.all__time {
+    font-weight: 400;
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 0;
+    margin-top: 28px;
+}
+
+.timeResult {
+    font-weight: 400;
+    font-size: 64px;
+    color: #000;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.restard {
+    margin-left: 117px;
+    margin-right: 117px;
+    width: 246px;
+    height: 48px;
+    margin-bottom: 48px;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    background: #7ac100;
+    border: 1px solid #7ac100;
+    border-radius: 12px;
+}
+
+.close {
+    text-decoration: none;
+    color: #fff;
+}

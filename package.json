@@ -1,0 +1,30 @@
+{
+    "name": "gitgame",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "http-server -p 3001",
+        "format": "prettier --write .",
+        "lint:css": "stylelint './src/**.css'",
+        "prepare": "husky install"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "http-server": "^14.1.1",
+        "lodash": "^4.17.21"
+    },
+    "devDependencies": {
+        "axios": "^0.27.2",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "husky": "^8.0.1",
+        "prettier": "^2.7.1",
+        "stylelint": "^14.11.0",
+        "stylelint-config-prettier": "^9.0.3",
+        "stylelint-config-standard": "^28.0.0",
+        "stylelint-prettier": "^2.0.0"
+    }
+}

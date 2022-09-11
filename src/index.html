@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+        <title>Game</title>
+    </head>
+    <body>
+        <div class="container__status container">
+            <h1 class="title">Выберите сложность:</h1>
+            <button class="easy button">1</button>
+            <button class="medium button">2</button>
+            <button class="hard button">3</button> <br />
+            <button class="start">Начать</button>
+        </div>
+        <div class="container__game hidden">
+            <div class="timer__button">
+                <div class="timer">
+                    <span id="seconds" class="time">00</span>
+                    <p class="time">.</p>
+                    .<span id="tens" class="time">00</span>
+                    <span class="triesid" id="triesid"></span>
+                </div>
+
+                <button class="restart">
+                    <a href="./index.html" class="close exit">Начать заново</a>
+                </button>
+            </div>
+            <div id="container" class="container__cards"></div>
+            <div id="zatemnenie">
+                <div id="okno">
+                    <div class="win__image win__lose">
+                        <img src="./img/win.png" alt="win" class="win" />
+                    </div>
+                    <div class="lose__image hidden win__lose">
+                        <img src="./img/lose.png" alt="lose" class="lose" />
+                    </div>
+                    <h1 class="title__result">Вы выиграли!</h1>
+                    <br />
+                    <p class="all__time">Затраченное время:</p>
+                    <br />
+                    <p class="timeResult">01.21</p>
+                    <button class="restard">
+                        <a href="./index.html" class="close exit"
+                            >Играть снова</a
+                        >
+                    </button>
+                </div>
+            </div>
+
+            <a href="#zatemnenie">Вызвать всплывающее окно</a>
+        </div>
+
+        <script src="./index.ts"></script>
+    </body>
+</html>

@@ -43,6 +43,7 @@ if (hard) {
 }
 if (start) {
     start.onclick = function start() {
+        debugger;
         if (containerGame) {
             containerGame.classList.toggle("hidden");
         }
@@ -51,7 +52,7 @@ if (start) {
         }
         let Interval = setInterval(startTimer, 10);
         console.log(statusGame);
-        let images: string[];
+        let images: string[] = [];
         if (statusGame === "easy") {
             images = ["1", "2", "3", "4", "5", "6"];
         } else if (statusGame === "medium") {
@@ -90,9 +91,10 @@ if (start) {
                 "17",
                 "18",
             ];
-            clone = images.slice(0); // duplicate array
-            cards = images.concat(clone); // merge to arrays
         }
+
+        clone = images.slice(0); // duplicate array
+        cards = images.concat(clone); // merge to arrays
         shuffle(cards);
 
         for (let i = 0; i < cards.length; i++) {
@@ -155,6 +157,7 @@ if (start) {
 
 // Shufffel function
 function shuffle(o: string[]) {
+    console.log(o);
     for (
         let j, x, i = o.length;
         i;

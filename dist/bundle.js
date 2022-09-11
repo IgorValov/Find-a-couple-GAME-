@@ -101,6 +101,7 @@ if (hard) {
 }
 if (start) {
     start.onclick = function start() {
+        debugger;
         if (containerGame) {
             containerGame.classList.toggle("hidden");
         }
@@ -109,7 +110,7 @@ if (start) {
         }
         var Interval = setInterval(startTimer, 10);
         console.log(statusGame);
-        var images;
+        var images = [];
         if (statusGame === "easy") {
             images = ["1", "2", "3", "4", "5", "6"];
         }
@@ -150,9 +151,9 @@ if (start) {
                 "17",
                 "18",
             ];
-            clone = images.slice(0); // duplicate array
-            cards = images.concat(clone); // merge to arrays
         }
+        clone = images.slice(0); // duplicate array
+        cards = images.concat(clone); // merge to arrays
         shuffle(cards);
         var _loop_1 = function (i) {
             var card = document.createElement("div");
@@ -214,6 +215,7 @@ if (start) {
 }
 // Shufffel function
 function shuffle(o) {
+    console.log(o);
     for (var j = void 0, x = void 0, i = o.length; i; j = Math.floor(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x)
         ;
     return o;

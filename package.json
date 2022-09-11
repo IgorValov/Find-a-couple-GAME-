@@ -4,14 +4,14 @@
     "description": "",
     "main": "index.ts",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
         "format": "prettier --write .",
         "lint:css": "stylelint './src/**.css'",
         "prepare": "husky install",
         "lint": "npm run lint:js && npm run lint:css",
         "build": "webpack",
         "start": "webpack-dev-server --open",
-        "lint:ts": "tsc --noEmit"
+        "lint:ts": "tsc --noEmit",
+        "test": "jest"
     },
     "author": "",
     "license": "ISC",
@@ -20,6 +20,7 @@
         "lodash": "^4.17.21"
     },
     "devDependencies": {
+        "@testing-library/jest-dom": "^5.16.5",
         "@types/lodash": "^4.14.184",
         "axios": "^0.27.2",
         "copy-webpack-plugin": "^11.0.0",
@@ -29,6 +30,7 @@
         "eslint-plugin-prettier": "^4.2.1",
         "html-webpack-plugin": "^5.5.0",
         "husky": "^8.0.1",
+        "jest": "^29.0.3",
         "mini-css-extract-plugin": "^2.6.1",
         "prettier": "^2.7.1",
         "style-loader": "^3.3.1",

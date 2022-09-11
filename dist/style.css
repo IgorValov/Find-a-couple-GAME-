@@ -1,3 +1,6 @@
+/*!*****************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/style.css ***!
+  \*****************************************************************/
 body {
     background: #004980;
 }
@@ -117,7 +120,7 @@ body {
     margin: 1px;
     float: left;
     cursor: pointer;
-    background: url("./img/рубашка.png") left center no-repeat;
+    background: url(6ec366b661d730d7a51f.png) left center no-repeat;
     border-radius: 5px;
 }
 
@@ -147,217 +150,217 @@ body {
 /* Cards */
 .correct[data-item="1"],
 .flipped[data-item="1"] {
-    background: url("./img/6\ бубны.png") left center no-repeat;
+    background: url(709d425583e119a283ea.png) left center no-repeat;
     background-size: contain;
 }
 
 .correct[data-item="2"],
 .flipped[data-item="2"] {
-    background: url("./img/6\ крести.png") left center no-repeat;
+    background: url(f1c76b46b8de29ee9b1e.png) left center no-repeat;
     background-size: contain;
 }
 
 .correct[data-item="3"],
 .flipped[data-item="3"] {
-    background: url("./img/6\ пики.png") left center no-repeat;
+    background: url(e1e7db58e854cb268e47.png) left center no-repeat;
     background-size: contain;
 }
 
 .correct[data-item="4"],
 .flipped[data-item="4"] {
-    background: url("./img/6\ черви.png") left center no-repeat;
+    background: url(58333ab30609c81061a7.png) left center no-repeat;
     background-size: contain;
 }
 
 .correct[data-item="5"],
 .flipped[data-item="5"] {
-    background: url("./img/7\ бубны.png") left center no-repeat;
+    background: url(be3c76a26631458052f8.png) left center no-repeat;
     background-size: contain;
 }
 
 .correct[data-item="6"],
 .flipped[data-item="6"] {
-    background: url("./img/7\ крести.png") left center no-repeat;
+    background: url(19937f1178b4699f1a1c.png) left center no-repeat;
     background-size: contain;
 }
 
 .correct[data-item="7"],
 .flipped[data-item="7"] {
-    background: url("./img/7\ пики.png") left center no-repeat;
+    background: url(d8c0c5d5e765bd0f9864.png) left center no-repeat;
     background-size: contain;
 }
 
 .correct[data-item="8"],
 .flipped[data-item="8"] {
-    background: url("./img/7\ черви.png") left center no-repeat;
+    background: url(7bfe4a990366b91ec5e5.png) left center no-repeat;
     background-size: contain;
 }
 
 .correct[data-item="9"],
 .flipped[data-item="9"] {
-    background: url("./img/8\ бубны.png") left center no-repeat;
+    background: url(c1288476119da3812158.png) left center no-repeat;
     background-size: contain;
 }
 
 .correct[data-item="10"],
 .flipped[data-item="10"] {
-    background: url("./img/8\ крести.png") left center no-repeat;
+    background: url(3e503d93496fd0bc49b9.png) left center no-repeat;
     background-size: contain;
 }
 
 .correct[data-item="11"],
 .flipped[data-item="11"] {
-    background: url("./img/8\ пики.png") left center no-repeat;
+    background: url(48957155eee046d58ff3.png) left center no-repeat;
     background-size: contain;
 }
 
 .correct[data-item="12"],
 .flipped[data-item="12"] {
-    background: url("./img/8\ черви.png") left center no-repeat;
+    background: url(8146fb947aff9dec17b7.png) left center no-repeat;
     background-size: contain;
 }
 
 .correct[data-item="13"],
 .flipped[data-item="13"] {
-    background: url("./img/9\ бубны.png") left center no-repeat;
+    background: url(81d34e66d712484a07e4.png) left center no-repeat;
     background-size: contain;
 }
 
 .correct[data-item="14"],
 .flipped[data-item="14"] {
-    background: url("./img/9\ крести.png") left center no-repeat;
+    background: url(fa72964e9c30e8e8f385.png) left center no-repeat;
     background-size: contain;
 }
 
 .correct[data-item="15"],
 .flipped[data-item="15"] {
-    background: url("./img/9\ пики.png") left center no-repeat;
+    background: url(35b6c040659fd51deb4a.png) left center no-repeat;
     background-size: contain;
 }
 
 .correct[data-item="16"],
 .flipped[data-item="16"] {
-    background: url("./img/9\ черви.png") left center no-repeat;
+    background: url(adb048b7b3f50f3db4ba.png) left center no-repeat;
     background-size: contain;
 }
 
 .correct[data-item="17"],
 .flipped[data-item="17"] {
-    background: url("./img/10\ бубны.png") left center no-repeat;
+    background: url(bcf65c405cc85294965f.png) left center no-repeat;
     background-size: contain;
 }
 
 .correct[data-item="18"],
 .flipped[data-item="18"] {
-    background: url("./img/10\ крести.png") left center no-repeat;
+    background: url(0e97a23e4fe90ad57036.png) left center no-repeat;
     background-size: contain;
 }
 
 .correct[data-item="19"],
 .flipped[data-item="19"] {
-    background: url("./img/10\ пики.png") left center no-repeat;
+    background: url(8de6e5aa3537c683ce2c.png) left center no-repeat;
     background-size: contain;
 }
 
 .correct[data-item="20"],
 .flipped[data-item="20"] {
-    background: url("./img/10\ черви.png") left center no-repeat;
+    background: url(132ad2c2fdfdda005c0c.png) left center no-repeat;
     background-size: contain;
 }
 
 .correct[data-item="21"],
 .flipped[data-item="21"] {
-    background: url("./img/валет\ бубны.png") left center no-repeat;
+    background: url(bf0b7cbbf1dfa0392573.png) left center no-repeat;
     background-size: contain;
 }
 
 .correct[data-item="22"],
 .flipped[data-item="22"] {
-    background: url("./img/валет\ крести.png") left center no-repeat;
+    background: url(0446097ff249e73ba930.png) left center no-repeat;
     background-size: contain;
 }
 
 .correct[data-item="23"],
 .flipped[data-item="23"] {
-    background: url("./img/валет\ пики.png") left center no-repeat;
+    background: url(5f11abe4d229cb46373f.png) left center no-repeat;
     background-size: contain;
 }
 
 .correct[data-item="24"],
 .flipped[data-item="24"] {
-    background: url("./img/валет\ черви.png") left center no-repeat;
+    background: url(206fb4357abfe13b8901.png) left center no-repeat;
     background-size: contain;
 }
 
 .correct[data-item="25"],
 .flipped[data-item="25"] {
-    background: url("./img/дама\ бубны.png") left center no-repeat;
+    background: url(9687cb5e0c7bc48982e7.png) left center no-repeat;
     background-size: contain;
 }
 
 .correct[data-item="26"],
 .flipped[data-item="26"] {
-    background: url("./img/дама\ крести.png") left center no-repeat;
+    background: url(09db968453b9f8ded43b.png) left center no-repeat;
     background-size: contain;
 }
 
 .correct[data-item="27"],
 .flipped[data-item="27"] {
-    background: url("./img/дама\ пики.png") left center no-repeat;
+    background: url(80e8f00ed96bfa4cc505.png) left center no-repeat;
     background-size: contain;
 }
 
 .correct[data-item="28"],
 .flipped[data-item="28"] {
-    background: url("./img/дама\ черви.png") left center no-repeat;
+    background: url(c6fb741341177cd9f1d9.png) left center no-repeat;
     background-size: contain;
 }
 
 .correct[data-item="29"],
 .flipped[data-item="29"] {
-    background: url("./img/король\ бубны.png") left center no-repeat;
+    background: url(c1b467fb58b4c33f4777.png) left center no-repeat;
     background-size: contain;
 }
 
 .correct[data-item="30"],
 .flipped[data-item="30"] {
-    background: url("./img/король\ крести.png") left center no-repeat;
+    background: url(96719270a08f03bdd58f.png) left center no-repeat;
     background-size: contain;
 }
 
 .correct[data-item="31"],
 .flipped[data-item="31"] {
-    background: url("./img/король\ пики.png") left center no-repeat;
+    background: url(a04258b7ed3ef8fb56b1.png) left center no-repeat;
     background-size: contain;
 }
 
 .correct[data-item="32"],
 .flipped[data-item="32"] {
-    background: url("./img/король\ черви.png") left center no-repeat;
+    background: url(9f65cdfa25760987717f.png) left center no-repeat;
     background-size: contain;
 }
 
 .correct[data-item="33"],
 .flipped[data-item="33"] {
-    background: url("./img/туз\ бубны.png") left center no-repeat;
+    background: url(71d3c674f84b4b4d5555.png) left center no-repeat;
     background-size: contain;
 }
 
 .correct[data-item="34"],
 .flipped[data-item="34"] {
-    background: url("./img/туз\ крести.png") left center no-repeat;
+    background: url(cebdaaf31c6146da5829.png) left center no-repeat;
     background-size: contain;
 }
 
 .correct[data-item="35"],
 .flipped[data-item="35"] {
-    background: url("./img/туз\ пики.png") left center no-repeat;
+    background: url(b547c6039554a0ba9a84.png) left center no-repeat;
     background-size: contain;
 }
 
 .correct[data-item="36"],
 .flipped[data-item="36"] {
-    background: url("./img/туз\ черви.png") left center no-repeat;
+    background: url(e62013fd888eae63912c.png) left center no-repeat;
     background-size: contain;
 }
 
@@ -438,3 +441,6 @@ body {
     text-decoration: none;
     color: #fff;
 }
+
+
+/*# sourceMappingURL=style.css.map*/
